@@ -1,37 +1,32 @@
-/* Default css */
+/* Default CsS */
 
-/* reset */
-html,body {
-  margin:0;
-  padding:0;
-}
 
 body { 
   background: linear-gradient(white, black); /* Standard syntax */
-  background:-webkit-linear-gradient(white, black); /* chrome, opera, safari */
-  height:600px; /* ვერ მივხვდი რატომ გაქვს ეს სიგრძე მითითებული? */
+  background:-webkit-linear-gradient(white, black); /* chrome, opera, safari*/
+  height:600px;
   width:100%;
-  font-size: 16px; /* 1em = 16px */
+  font-size: 16px;
 }
 /*Header*/
 #h1 {
   text-shadow: 6px 2px white;
-  font-size: 4em; /* 16x4=64px რელატიურია მისი მშობელის მიმართ */
+  font-size: 64px; /* 16x4=64px */
   text-align: center;
   text-transform: capitalize;
   font-style: italic;
   font-weight: 900;
   /* width:90%; /* ამას ამოვიღებდი საერთოდ, რადგაბ text-align: center; - ისედაც გაქვს*/
   margin: 0 10px 20px 10px;
-  /* padding: 0px 50px 60px 5px; */
-  /* border-radius: 50% 30%; */
+  padding: 0px 50px 60px 5px; 
+  border-radius: 50% 30%;
   color: black;
 }
 a {
- text-decoration: none; 
+ text-decoration:none; 
 }
 a:link {
-  text-decoration: none;
+  text-decoration:none;
 }
 /***** Navigacia ******/
 
@@ -45,8 +40,6 @@ a:link {
   border-radius: 50%;
   border-color:grey;
   padding:1% 1% 1% 1%;
-  max-width: 800px; /* image-ს უსასრულოდ არ გავწელავდი, მივუთითებდი მაქსიმუმ რამდენი შეიძლება იყოს განში*/
-  margin: 0 auto; /* ეს იმისთვის, რომ ცენტში იყოს, რადგან განი შევუზღუდე */
 }
  
 .main-image img {
@@ -80,7 +73,6 @@ a:link {
   display:inline-block; 
   font-weight:800;
   padding:0;
-  text-align: center;
   margin:0 0 0 6%;
   border-radius: 2px;
   margin-top:2px;
@@ -89,9 +81,7 @@ a:link {
 }
 .navigacia li a {
   text-decoration:none;
-  color: black;
-  display: block; /* ესე შეგიძია მთლიანად li ელემენტი გახადო ჰიპერლინკი */
-  line-height: 50px; /* ესე შეგიძლია მოაქციო ტექსტი ვერტიკალურად ცენტრში, */
+  color: black; 
 }
 .navigacia::active li a {
   color: red;
