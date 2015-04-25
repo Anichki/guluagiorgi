@@ -4,6 +4,7 @@
 body { 
   background: linear-gradient(white, black); /* Standard syntax */
   background:-webkit-linear-gradient(white, black); /* chrome, opera, safari*/
+  background: linear-gradient;
   height:600px;
   width:100%;
   font-size: 16px;
